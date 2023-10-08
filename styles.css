@@ -1,0 +1,56 @@
+
+body {
+    background-image: url('spendaci ixd.png');
+    background-size: cover; /* Menyesuaikan gambar agar sesuai dengan ukuran jendela browser */
+    background-repeat: no-repeat; /* Mencegah gambar latar belakang diulang */
+}
+
+.container {
+    text-align: center; /* Ini hanyalah untuk mengatur tampilan teks di dalam kontainer */
+    padding: 20px;
+}
+
+/* Mengubah warna teks seluruh halaman menjadi biru */
+body {
+    color: white;
+}
+
+/* Gaya dasar tombol */
+.social-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00040894; /* Warna latar belakang */
+    color: #fff; /* Warna teks */
+    text-decoration: none; /* Menghilangkan garis bawah teks */
+    border-radius: 5px; /* Sudut tombol */
+    font-weight: bold; /* Ketebalan teks */
+    text-align: center;
+    
+    /* Properti outline */
+    outline: 2px solid #ffffff; /* Warna dan lebar outline */
+}
+
+/* Efek hover ketika kursor mengarah ke tombol */
+.social-button:hover {
+    background-color: #ff0000; /* Warna latar belakang saat hover */
+}
+
+/* Efek ketika tombol ditekan */
+.social-button:active {
+    background-color: #ff0000; /* Warna latar belakang saat tombol ditekan */
+}
+
+/* Gaya dasar gambar */
+.outlined-image {
+    border: 2px solid #ffffff; /* Warna dan lebar garis luar (outline) */
+}
+
+/* Efek hover ketika kursor mengarah ke gambar */
+.outlined-image:hover {
+    border: 2px solid #2bff00; /* Warna dan lebar garis luar (outline) saat hover */
+}
+
+/* Efek ketika gambar ditekan */
+.outlined-image:active {
+    border: 2px solid #ffffff; /* Warna dan lebar garis luar (outline) saat gambar ditekan */
+}
